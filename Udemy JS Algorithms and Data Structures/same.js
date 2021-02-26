@@ -43,3 +43,5 @@ arr1 = [1, 2, 3];
 arr2 = [1, 4, 9];
 
 console.log(same(arr1,arr2));
+
+//O(n)
