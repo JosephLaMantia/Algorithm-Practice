@@ -11,8 +11,8 @@ function same(arr1, arr2){
     }
 
     //create to frequencyCounter objects, checking frequency of each number in respective arr's
-    frequencyCounter1 = {};
-    frequencyCounter2 = {};
+    let frequencyCounter1 = {};
+    let frequencyCounter2 = {};
 
     for(let val of arr1){   //creates object with frequency of arr1
         frequencyCounter1[val] = (frequencyCounter1[val] || 0) + 1;
