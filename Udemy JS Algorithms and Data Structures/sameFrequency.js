@@ -37,4 +37,4 @@ function sameFrequency(num1,num2){
     return true;    //if checks passed, return true
 }
 
-console.log(sameFrequency(1,2));
+console.log(sameFrequency(22,222));
