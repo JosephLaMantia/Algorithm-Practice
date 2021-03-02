@@ -7,7 +7,7 @@
 function sameFrequency(num1,num2){
 
     //check the amount of digits in first num
-    firstDigits = 0;
+    let firstDigits = 0;
     if(num1 >= 1){
         ++firstDigits;
     }
@@ -17,7 +17,7 @@ function sameFrequency(num1,num2){
     }
 
     //check the amount of digits in second num
-    secondDigits = 0;
+    let secondDigits = 0;
     if(num2 >= 1){
         ++secondDigits;
     }
