@@ -3,6 +3,9 @@
 function uniqueValues (arr){
     //create two pointers
     //point one to first index, then to second index.
+    if(arr.length === 0) {
+        return 0;
+    }
     let i = 0;
     let j = 1;
 
