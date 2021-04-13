@@ -44,7 +44,7 @@ function validAnagram(str1, str2){
     return true; //if passes all checks, true
 };
 
-let str1 = "";
-let str2 = "";
+let str1 = "radar";
+let str2 = "radra";
 
 console.log(validAnagram(str1,str2));
